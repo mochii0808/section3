@@ -43,7 +43,7 @@ cat = soup.select('.cat')
 #div태그의 cat클래스
 cat = soup.find_all('div', class_='cat')
 cat = soup.select('div.cat')
-#하위경로 li태그
+#하위경로 태그
 #리스트로 저장되므로 주의!!!
 cat = soup.find_all('div', class_='cat').find('li')
 cat = soup.select('div > li')
