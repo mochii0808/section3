@@ -1,0 +1,20 @@
+Flask
+- 웹 app 개발 프레임워크
+
+-------------------------------------------------------------
+
+진행 순서
+
+1. 설치
+$ pip install flask
+
+2. 폴더 생성
+app
+└── __init__.py
+
+3. flask 애플리케이션 생성
+from flask import Flask
+app = Flask(__name__)
+
+4. CLI로 실행
+$ FLASK_APP=app flask run
